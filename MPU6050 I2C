@@ -1,5 +1,9 @@
 #include "mbed.h"
 
+Serial pc(p9, p10);
+
+char MPU6050_ADDRESS = (0x68 << 1); // pin AD0 is logic to low(b1101000) 
+
 main() {
 
 }
