@@ -43,6 +43,11 @@ When used in this configuration, the adress of the one of the devices/the other 
 |DATA|transmit or received data|
 |P|stop condition, SDA going from low to high while SCL is high|
 
+<**why we use 'wait_ms()' function in mbed**>
+1. Time Delay
+2. Timers and Periodic Tasks
+3. Power Management
+4. Synchronization
 
 
 
