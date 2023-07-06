@@ -21,7 +21,9 @@ namespace name {
         
 ### MPU6050
 
-init value : 0x00
+init value : 0x00 (cf. PWR_MGMT_1, WHO_AM_I)
+PWR_MGMT_1=0x40
+WHO_AM_I=0x68
 
 p8: VLOGIC, Digital I/O supply voltage. VLOGIC must be =< VDD at all times.  
 p9: AD0, I2C Slave Address LSB
