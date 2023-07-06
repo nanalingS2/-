@@ -10,12 +10,13 @@ p24: SDA, I2C serial data
 
 Register 28 - Accelerometer Configuration(ACCEL_CONFIG)  
 
- |AFS_SEL|Full Scale Range|
+ |AFS_SEL|Full Scale Range|     
  |:---:|:---:|
  |0|+-2g|
  |1|+-4g|
  |2|+-8g|
  |3|+-16g|
+ AFS_SEL : 2-bit unsigned value. Selects the full scale range of accelerometers. 
  
 Register 27 - Gyroscope Configuration(GYRO_CONFIG)  
 
