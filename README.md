@@ -10,7 +10,7 @@
     <code>
 namespace name {  
   enum GyroRange {  
-    GYRO_RANGE_250=0,  
+    GYRO_RANGE_250=0,  //
     GYRO_RANGE_500=1,  
     GYRO_RANGE_1000=2,  
     GYRO_RANGE_2000=3  
