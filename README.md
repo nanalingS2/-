@@ -1,5 +1,10 @@
 # dotori
 ## SENSOR
+### mbed
+
+**write()** : used to send data to a device.  
+**read()** : reads the specified number of bytes from the device at the specified address and stores the received data in the provided 'data' buffer.
+
 ### MPU6050_I2C
 
 p8: VLOGIC, Digital I/O supply voltage. VLOGIC must be =< VDD at all times.  
