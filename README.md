@@ -56,7 +56,8 @@ When used in this configuration, the adress of the one of the devices/the other 
 
 ## C++
 ### Bitwise operator
-
+| : bit OR  
+& : bit AND
 
 
 
