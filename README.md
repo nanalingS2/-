@@ -48,8 +48,10 @@ When used in this configuration, the adress of the one of the devices/the other 
 2. Timers and Periodic Tasks :  
    useful for implementing tasks  
    that need to be executed periodically with a specific time interval.  
-4. Power Management
-5. Synchronization
+3. Power Management :
+   can transition the microcontroller into a low-power state,  
+   saving energy during the wait period.
+4. Synchronization
 
 
 
