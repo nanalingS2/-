@@ -8,6 +8,9 @@ p9: AD0, I2C Slave Address LSB
 p23: SCL, I2C serial clock  
 p24: SDA, I2C serial data
 
+Register 28 - Accelerometer Configuration(ACCEL_CONFIG)  
+Register 27 - Gyroscope Configuration(GYRO_CONFIG)  
+
 The MPU60X0 alwalys operates as a slave device when communicating to the system processor, which thus acts as the master.
 
 **The slave adress of the MPU-60X0 is b110100X which is 7 bits long.**  
