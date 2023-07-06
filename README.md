@@ -13,7 +13,7 @@ p9: AD0, I2C Slave Address LSB
 p23: SCL, I2C serial clock  
 p24: SDA, I2C serial data
 
-Register 28 - Accelerometer Configuration(ACCEL_CONFIG)  
+**Register 28** - Accelerometer Configuration(ACCEL_CONFIG)  
 
  |AFS_SEL|Full Scale Range|     
  |:---:|:---:|
@@ -24,7 +24,7 @@ Register 28 - Accelerometer Configuration(ACCEL_CONFIG)
  
  AFS_SEL : 2-bit unsigned value. Selects the full scale range of accelerometers. 
  
-Register 27 - Gyroscope Configuration(GYRO_CONFIG)  
+**Register 27** - Gyroscope Configuration(GYRO_CONFIG)  
 
 *The MPU60X0 alwalys operates as a slave device when communicating to the system processor, which thus acts as the master.*
 
