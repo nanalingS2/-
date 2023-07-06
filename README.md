@@ -3,8 +3,7 @@
 ### mbed
 
 **write()** : used to send data to a device.  
-**read()** : reads the specified number of bytes from the device at the specified address and  
-             stores the received data in the provided 'data' buffer.
+**read()** : reads the specified number of bytes from the device at the specified address and stores the received data in the provided 'data' buffer.
 
 ### MPU6050_I2C
 
@@ -27,7 +26,7 @@ Register 28 - Accelerometer Configuration(ACCEL_CONFIG)
  
 Register 27 - Gyroscope Configuration(GYRO_CONFIG)  
 
-The MPU60X0 alwalys operates as a slave device when communicating to the system processor, which thus acts as the master.
+*The MPU60X0 alwalys operates as a slave device when communicating to the system processor, which thus acts as the master.*
 
 **The slave adress of the MPU-60X0 is b110100X which is 7 bits long.**  
 The LSB bit if the 7 bit address is determined by the logic level on pin AD0.  
