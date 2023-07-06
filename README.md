@@ -5,6 +5,13 @@
 **write()** : used to send data to a device.  
 **read()** : reads the specified number of bytes from the device at the specified address and stores the received data in the provided 'data' buffer.
 
+namespace name {
+  enum GyroRange {
+    GYRO_RANGE_250=0,
+    GYRO_RANGE_500=1,
+    GYRO_RANGE_1000=2,
+    GYRO_RANGE_2000=3
+  }
 ### MPU6050_I2C
 
 p8: VLOGIC, Digital I/O supply voltage. VLOGIC must be =< VDD at all times.  
