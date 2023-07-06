@@ -52,7 +52,12 @@ When used in this configuration, the adress of the one of the devices/the other 
    can transition the microcontroller into a low-power state,  
    saving energy during the wait period.
 4. **Synchronization** :
-    relies on the platform and timers to provide accurate time delays. 
+    relies on the platform and timers to provide accurate time delays.
+
+## C++
+### Bitwise operator
+
+
 
 
 
