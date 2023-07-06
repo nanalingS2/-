@@ -22,9 +22,16 @@ p24: SDA, I2C serial data
  |2|+-8g|
  |3|+-16g|
  
- AFS_SEL : 2-bit unsigned value. Selects the full scale range of accelerometers. 
+ AFS_SEL : 2-bit unsigned value. Selects the *full scale range* of accelerometers. 
  
-**Register 27** - Gyroscope Configuration(GYRO_CONFIG)  
+**Register 27** - Gyroscope Configuration(GYRO_CONFIG) 
+
+ |FS_SEL|Full Scale Range|     
+ |:---:|:---:|
+ |0|+-2g|
+ |1|+-4g|
+ |2|+-8g|
+ |3|+-16g|
 
 *The MPU60X0 alwalys operates as a slave device when communicating to the system processor, which thus acts as the master.*
 
