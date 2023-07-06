@@ -44,14 +44,14 @@ When used in this configuration, the adress of the one of the devices/the other 
 |P|stop condition, SDA going from low to high while SCL is high|
 
 <**why we use 'wait_ms()' function in mbed**>
-1. Time Delay : stable sensor data acquisition
-2. Timers and Periodic Tasks :  
+1. **Time Delay** : stable sensor data acquisition
+2. **Timers and Periodic Tasks** :  
    useful for implementing tasks  
    that need to be executed periodically with a specific time interval.  
-3. Power Management :
+3. **Power Management** :
    can transition the microcontroller into a low-power state,  
    saving energy during the wait period.
-4. Synchronization
+4. **Synchronization**
 
 
 
