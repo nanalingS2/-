@@ -45,9 +45,10 @@ When used in this configuration, the adress of the one of the devices/the other 
 
 <**why we use 'wait_ms()' function in mbed**>
 1. Time Delay : stable sensor data acquisition
-2. Timers and Periodic Tasks : useful for implementing tasks that need to be executed periodically with a specific time interval.  
-3. Power Management
-4. Synchronization
+2. Timers and Periodic Tasks :  
+   useful for implementing tasks that need to be executed periodically with a specific time interval.  
+4. Power Management
+5. Synchronization
 
 
 
