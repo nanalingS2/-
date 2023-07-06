@@ -9,6 +9,14 @@ p23: SCL, I2C serial clock
 p24: SDA, I2C serial data
 
 Register 28 - Accelerometer Configuration(ACCEL_CONFIG)  
+
+ |AFS_SEL|Full Scale Range|
+ |:---:|:---:|
+ |0|+-2g|
+ |1|+-4g|
+ |2|+-8g|
+ |3|+-16g|
+ 
 Register 27 - Gyroscope Configuration(GYRO_CONFIG)  
 
 The MPU60X0 alwalys operates as a slave device when communicating to the system processor, which thus acts as the master.
