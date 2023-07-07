@@ -94,5 +94,5 @@ When used in this configuration, the adress of the one of the devices/the other 
 [Serial 클래스 (직렬통신)](https://blog.naver.com/alexpark0922/221619762692)
 
 ## Teraterm
-check the **Local echo button**, you can see your input data  
+check the **Local echo** button, you can see your input data  
 
