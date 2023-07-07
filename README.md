@@ -91,4 +91,8 @@ When used in this configuration, the adress of the one of the devices/the other 
 
 
 
+## HC-12아두이노 코드
+[Hc-12](https://rasino.tistory.com/326)
+
+
 
