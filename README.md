@@ -92,7 +92,8 @@ When used in this configuration, the adress of the one of the devices/the other 
 
 
 ## HC-12아두이노 코드
-[Hc-12](https://rasino.tistory.com/326)
+[Hc-12](https://rasino.tistory.com/326)  
+[Serial 클래스 (직렬통신)](https://blog.naver.com/alexpark0922/221619762692)
 
 
 
