@@ -21,7 +21,7 @@ namespace name {
         
 ### MPU6050
 
-init value : 0x00 (cf. PWR_MGMT_1, WHO_AM_I)  
+**init value : 0x00** (cf. PWR_MGMT_1, WHO_AM_I)  
 PWR_MGMT_1=0x40  
 WHO_AM_I=0x68
 
