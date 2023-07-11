@@ -83,7 +83,7 @@ The MS5611-01BA has built in two types of serial interfaces: **SPI** and **I2C**
 |High|I2C|SDA|
 |Low|SPI|SDI, SDO, CSB|  
 
-## <**why we use 'wait_ms()' function in mbed**>
+## **why we use 'wait_ms()' function in mbed**
 1. **Time Delay** : stable sensor data acquisition
 2. **Timers and Periodic Tasks** :  
    useful for implementing tasks  
