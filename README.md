@@ -76,7 +76,7 @@ When used in this configuration, the adress of the one of the devices/the other 
 ### MS5611
 The MS5611-01BA has built in two types of serial interfaces: **SPI** and **I2C**.  
 1. Pulling the protocol select pin PS to low selects the SPI protocol.
-2. Pulling the protocol select pin PS to high activates the I2C bus protocol.
+2. Pulling the protocol select pin **PS to high** activates the **I2C** bus protocol.
 
 |Pin PS|Mode|Pins used|
 |:---:|:---:|:---:|
