@@ -17,7 +17,7 @@ HC12::HC12(PinName TX, PinName RX, PinName set)
         set_baudrate(9600); 
         set_tx_power(HC12_CONST::TX_Power_20);
         
-        set_sample_rate(002);
+        set_frequency_channel(002);
        
     //    set_air_baudrate();
    }
@@ -96,7 +96,7 @@ HC12::HC12(PinName TX, PinName RX, PinName set)
 //    }
 
 
-    void HC12::set_sample_rate(int div){
+    void HC12::set_frequency_channel(int div){
      char channel[10];
 
       set = 0;
