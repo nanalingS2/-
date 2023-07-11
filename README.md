@@ -81,7 +81,15 @@ The MS5611-01BA has built in two types of serial interfaces: **SPI** and **I2C**
 |Pin PS|Mode|Pins used|
 |:---:|:---:|:---:|
 |High|I2C|SDA|
-|Low|SPI|SDI, SDO, CSB|  
+|Low|SPI|SDI, SDO, CSB| 
+
+## I2C MODE
+# COMMANDS
+ 1. Reset
+ 2. Read PROM(128 bit if calibration words)
+ 3. D1 conversion
+ 4. D2 conversion
+ 5. Reaad ADC result(24 bit pressure/temperature)
 
 ## **why we use 'wait_ms()' function in mbed**
 1. **Time Delay** : stable sensor data acquisition
