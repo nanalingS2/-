@@ -121,8 +121,8 @@ The MS5611-01BA has built in two types of serial interfaces: **SPI** and **I2C**
 check the **Local echo** button, you can see your input data  
 
 ## I2C 
-[I2C communication](https://blair6383.tistory.com/99)
-[I2C Arduino](https://codeda.tistory.com/178)
+[I2C communication](https://blair6383.tistory.com/99)  
+[I2C Arduino](https://codeda.tistory.com/178)  
 [MPU6050 I2C communication](https://kyoungin90.tistory.com/280)
 
 
