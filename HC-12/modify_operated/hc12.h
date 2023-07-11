@@ -33,10 +33,11 @@ public:
     HC12(PinName TX, PinName RX, PinName set);
 
     void transmit_packet(char*data, int len);
-    // void set_default();
+    void set_default(long d);
     void set_tx_power(long x);
     void set_baudrate(long baud);
     void set_air_baudrate(long a_baud);
+    void set_sample_rate(int div);
 
     bool readable();
     char getc();
