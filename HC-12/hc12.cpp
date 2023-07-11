@@ -28,9 +28,19 @@ HC12::HC12(PinName TX, PinName RX)
        hc12.write(packet,len+3);  
     }
 
-//    void HC12::set_default() {
-//        //
-//    }
+void HC12::set_default(char*d) {
+    char defaul[20];
+    sprintf(defaul, "AT+%s", d);
+
+    hc12.printf("%s\r\n", defaul);
+
+     void wait_ms(int n=100);
+
+    while (hc12.readable()) {
+        hc12.getc();
+    }
+}
+
 
    void HC12::set_tx_power(long x) {
       char txPower[10];
