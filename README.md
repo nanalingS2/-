@@ -83,8 +83,8 @@ The MS5611-01BA has built in two types of serial interfaces: **SPI** and **I2C**
 |High|I2C|SDA|
 |Low|SPI|SDI, SDO, CSB| 
 
-#### <I2C MODE>
- **COMMANDS**
+#### I2C MODE
+ #### **COMMANDS**
  1. Reset
  2. Read PROM(128 bit if calibration words)
  3. D1 conversion
