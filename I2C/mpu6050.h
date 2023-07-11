@@ -54,7 +54,7 @@ private:
 public:
     MPU6050(PinName sda, PinName scl);
 
-    void set_sample_rate(char div);
+    void set_frequency_channel(char div);
     void set_LPF(char cfg);
     void set_acc_range(char range);
     void set_gyro_range(char range);
