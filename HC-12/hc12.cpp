@@ -9,9 +9,14 @@ HC12::HC12(PinName TX, PinName RX)
    : hc12(TX,RX)
    {
     //    transmit_packet();
-    //    set_default();
-       set_tx_power(HC12_CONST::TX_Power_8);
-       set_baudrate(9600); 
+       wait_ms(100);
+
+        set_default(68);
+        
+        wait_ms(100);
+        set_baudrate(9600); 
+        
+        set_tx_power(HC12_CONST::TX_Power_20);
     //    set_air_baudrate();
    }
 
