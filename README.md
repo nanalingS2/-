@@ -73,7 +73,10 @@ When used in this configuration, the adress of the one of the devices/the other 
 |NACK|Not-Acknowledge, SDA line stays high at the 9th cycle|
 |RA| MPU-60X0 internal register address|
 |DATA|transmit or received data|
-|P|stop condition, SDA going from low to high while SCL is high|
+|P|stop condition, SDA going from low to high while SCL is high|  
+
+[MPU6050](https://blog.naver.com/nkkh159/220611880893)
+
 
 ### MS5611
 The MS5611-01BA has built in two types of serial interfaces: **SPI** and **I2C**.  
@@ -116,4 +119,10 @@ The MS5611-01BA has built in two types of serial interfaces: **SPI** and **I2C**
 
 ## Teraterm
 check the **Local echo** button, you can see your input data  
+
+## I2C 
+[I2C communication](https://blair6383.tistory.com/99)
+[I2C Arduino](https://codeda.tistory.com/178)
+[MPU6050 I2C communication](https://kyoungin90.tistory.com/280)
+
 
