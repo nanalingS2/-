@@ -37,7 +37,7 @@ public:
     void set_tx_power(long x);
     void set_baudrate(long baud);
     void set_air_baudrate(long a_baud);
-    void set_sample_rate(int div);
+    void set_frequency_channel(int div);
 
     bool readable();
     char getc();
