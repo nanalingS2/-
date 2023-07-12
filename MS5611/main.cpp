@@ -2,13 +2,16 @@
 #include "ms5611.h"
 
 Serial pc(USBTX, USBRX);
-MS5611 ms(p28, p27);
+MS5611 ms(p28, p27, p8);
 
 int main()
 {
     pc.baud(9600);
-
+    
     while (true) {
-    //    pc.printf("");
+        ms.get_alt();
+        ms.get_atmos_pressure();
+
+        wait_ms(1);
     }
 }
