@@ -7,7 +7,7 @@ namespace MS_Const
 {
     enum cmd
     {
-        RESET = 0x1E,
+        RESET = 0b00011110,
         ADC_READ = 0x00,
         PROM_READ = 0xA0 //0xA0 to 0xAE
     };
@@ -30,16 +30,21 @@ namespace MS_Const
 class MS5611
 {
 private:
-    I2C i2c;
+    Serial ms;
+    DigitalOut ps;
 
-    const char DEV_ADDR = 0b11101100; //111011C0: csb 보정값
+    const char DEV_ADDR = 0b11101100; //111011C0: csb 보정값 = csb inverse?
 
 public:
     MS5611(PinName sda, PinName scl, PinName csb);
     
-    void reset(long reg);
+    void reset();
     void get_atmos_pressure ();
     void get_alt();
+
+    bool readable();
+    char getc();
+    void putc(char c);
 };
 
 #endif
