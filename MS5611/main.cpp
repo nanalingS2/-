@@ -9,8 +9,9 @@ int main()
     pc.baud(9600);
     
     while (true) {
-        ms.get_alt();
+       
         ms.get_atmos_pressure();
+        ms.get_alt();
 
         wait_ms(1);
     }
