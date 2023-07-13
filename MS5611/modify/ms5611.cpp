@@ -10,7 +10,7 @@ MS5611::MS5611(PinName sda, PinName scl, PinName ps)
         reset(MS_Const::RESET);
         wait_ms(1);
 
-        long d1 = get_d(MS_Const::D1_4096); //OSR=4096
+        long d1 = get_d(MS_Const::D1_4096);  //OSR=4096
         long d2 = get_d(MS_Const::D2_4096);
 
         float p = calculate(d1,d2);
@@ -134,11 +134,11 @@ float MS5611::calculate(long d1,long d2)
     
     int i;
     uint16_t c[8];
-    char PROM_READ[8] = {0xA0,0xA2,0xA4,0xA6,0xA8,0xAA,0xAC,0xAE};
+    // char PROM_READ[8] = {0xA0,0xA2,0xA4,0xA6,0xA8,0xAA,0xAC,0xAE};
 
     for(i=1;i<7;i++)
     {
-        c[i]=get_atmos_pressure(PROM_READ[i]);
+        c[i]=get_atmos_pressure(MS5611::PROM_READ[i]);
     }
 
     dTf=(float)d2-((float)c[5]*256.0f);
