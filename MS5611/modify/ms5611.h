@@ -3,6 +3,11 @@
 
 #include "mbed.h"
 
+// namespace MS_Regi
+// {
+//     char PROM_READ[8] = {0xA0,0xA2,0xA4,0xA6,0xA8,0xAA,0xAC,0xAE};
+// }
+
 namespace MS_Const
 {
     enum cmd
@@ -34,6 +39,7 @@ private:
     DigitalOut ps;
 
     const char DEV_ADDR = (0x76<<1); //111011C: csb 보정값 = csb inverse?
+    const char PROM_READ[8] = {0xA0,0xA2,0xA4,0xA6,0xA8,0xAA,0xAC,0xAE};
 
 public:
     MS5611(PinName sda, PinName scl, PinName ps);
