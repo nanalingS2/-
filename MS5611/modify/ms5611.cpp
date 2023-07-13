@@ -80,7 +80,7 @@ long MS5611::get_d(char com)
 
 }
 
-int MS5611::get_atmos_pressure (char com)
+int MS5611::get_cali_data(char com)
 {
     ps = 1;
     pc.printf("%s\r\n", "start condition2");
@@ -138,7 +138,7 @@ float MS5611::calculate(long d1,long d2)
 
     for(i=1;i<7;i++)
     {
-        c[i]=get_atmos_pressure(MS5611::PROM_READ[i]);
+        c[i]=get_cali_data(MS5611::PROM_READ[i]);
     }
 
     dTf=(float)d2-((float)c[5]*256.0f);
