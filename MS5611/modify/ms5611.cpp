@@ -10,7 +10,7 @@ MS5611::MS5611(PinName sda, PinName scl, PinName ps)
         reset(MS_Const::RESET);
         wait_ms(1);
 
-        long d1 = get_d(MS_Const::D1_4096);
+        long d1 = get_d(MS_Const::D1_4096); //OSR=4096
         long d2 = get_d(MS_Const::D2_4096);
 
         float p = calculate(d1,d2);
