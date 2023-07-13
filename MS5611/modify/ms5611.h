@@ -46,7 +46,7 @@ public:
     
     void reset(char com);
     long get_d(char com);
-    int get_atmos_pressure (char com);
+    int get_cali_data(char com);
     void get_alt();
 
     float calculate(long d1,long d2);
