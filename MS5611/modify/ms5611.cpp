@@ -16,8 +16,7 @@ MS5611::MS5611(PinName sda, PinName scl, PinName ps)
         float p = calculate(d1,d2);
 
         pc.printf("%f\r\n",p);
-
-        // get_atmos_pressure (MS_Const::PROM_READ); //주소 000을 읽기 위한 것 
+        
         // get_alt();
     }
 
