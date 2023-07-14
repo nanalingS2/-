@@ -47,7 +47,7 @@ public:
     void reset(char com);
     long get_d(char com);
     int get_cali_data(char com);
-    void get_alt();
+    void get_alt(int d1, int d2);
 
     float calculate(long d1,long d2);
 
