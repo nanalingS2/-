@@ -16,6 +16,7 @@ MS5611::MS5611(PinName sda, PinName scl, PinName ps)
         float p = calculate(d1,d2);
 
         pc.printf("pressure = %f\r\n",p);
+        get_alt(d1, d2);
         
         // get_alt();
     }
