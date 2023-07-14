@@ -30,6 +30,10 @@ namespace MS_Const
         D2_2048 = 0x56,
         D2_4096 = 0x58
     };
+     enum Pressure
+    {
+        Base_pressure =10033
+    };
 }
 
 class MS5611
