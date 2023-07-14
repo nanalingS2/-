@@ -201,3 +201,24 @@ float MS5611::calculate(long d1,long d2)
 // {
 //     ms.putc(c);
 // }
+
+void MS5611::get_alt(int d1, int d2)//절대고도계산
+{
+    ps = 1;
+    int p1;
+    int p=calculate(d1,d2);
+    pc.printf("%s\r\n", "start condition");
+    p1= 44330*(1-pow(p/MS_Const::Base_pressure/10,0.1903));
+    pc.printf("%d\n",p1);
+    
+
+
+    
+
+    pc.printf("%s\r\n", "stop condition");
+    
+    // while(ms.readable()) {
+    //     pc.putc(ms.getc());
+    // }
+
+}
