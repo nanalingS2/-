@@ -49,7 +49,7 @@ int Packet::get_imu_packet(char * packet, float * acc, float * gyro, float * mag
     return IMU_SIZE+5;
 }
 
-get_imu_gps_packet(char * packet, float * acc, float * gyro, float * mag, float * press,  GpsData &gps)
+int Packet::get_imu_gps_packet(char * packet, float * acc, float * gyro, float * mag, float * press, GpsData &gps) 
 {
     buf[2] = MSG_IMU_GPS;
     buf[3] = IMU_GPS_SIZE;
